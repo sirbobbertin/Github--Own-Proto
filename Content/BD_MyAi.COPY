@@ -1,0 +1,40 @@
+Begin Object Class=/Script/AIModule.BlackboardData Name="BD_MyAi"
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Bool Name="BlackboardKeyType_Bool_0"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Bool Name="BlackboardKeyType_Bool_1"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Enum Name="BlackboardKeyType_Enum_0"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Enum Name="BlackboardKeyType_Enum_1"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Object Name="BlackboardKeyType_Object_0"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Object Name="BlackboardKeyType_Object_1"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Vector Name="BlackboardKeyType_Vector_0"
+   End Object
+   Begin Object Name="BlackboardKeyType_Bool_0"
+   End Object
+   Begin Object Name="BlackboardKeyType_Bool_1"
+   End Object
+   Begin Object Name="BlackboardKeyType_Enum_0"
+   End Object
+   Begin Object Name="BlackboardKeyType_Enum_1"
+      EnumType=UserDefinedEnum'"/Game/ThirdPersonBP/TagState.TagState"'
+   End Object
+   Begin Object Name="BlackboardKeyType_Object_0"
+      BaseClass=Class'"/Script/Engine.Actor"'
+   End Object
+   Begin Object Name="BlackboardKeyType_Object_1"
+      BaseClass=BlueprintGeneratedClass'"/Game/ThirdPersonBP/BP_Myai.BP_Myai_C"'
+   End Object
+   Begin Object Name="BlackboardKeyType_Vector_0"
+   End Object
+   Keys(0)=(EntryName="TargetLocation",KeyType=BlackboardKeyType_Vector'"BlackboardKeyType_Vector_0"')
+   Keys(1)=(EntryName="IsPlayerInRange",KeyType=BlackboardKeyType_Bool'"BlackboardKeyType_Bool_0"')
+   Keys(2)=(EntryName="SelfActor",KeyType=BlackboardKeyType_Object'"BlackboardKeyType_Object_0"')
+   Keys(3)=(EntryName="IsTag",KeyType=BlackboardKeyType_Bool'"BlackboardKeyType_Bool_1"')
+   Keys(4)=(EntryName="EnumKey",KeyType=BlackboardKeyType_Enum'"BlackboardKeyType_Enum_0"')
+   Keys(5)=(EntryName="AiTarget",KeyType=BlackboardKeyType_Object'"BlackboardKeyType_Object_1"')
+   Keys(6)=(EntryName="AiState",KeyType=BlackboardKeyType_Enum'"BlackboardKeyType_Enum_1"')
+End Object
